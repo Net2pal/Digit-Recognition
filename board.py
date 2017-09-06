@@ -57,7 +57,7 @@ with tf.Session() as sess:
     
     
     # Change this to a location on your computer
-    summary_writer = tf.summary.FileWriter('C:\\Users\\Pulkit\\AppData\\Local\\Programs\\Python\\Python36\\Lib\\site-packages\\tensorflow\\python\\summary\\writer', sess.graph)
+    summary_writer = tf.summary.FileWriter('log direc', sess.graph)
 
     # Training cycle
     for iteration in range(training_iteration):
